@@ -1,3 +1,7 @@
+This Terraform module automates the configuration of GitHub Actions environment variables essential for managing an Azure Terraform project. Specifically, it sets up environment variables for the Terraform State Backend containing an Azure resource group, storage account and storage containers for Terraform State and compiled plan files. 
+
+By managing these variables through Terraform, the module ensures consistent and secure configuration, facilitating seamless integration and automation for Terraform and Azure-based projects as part of the GitHub AT-AT framework.
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
